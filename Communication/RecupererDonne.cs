@@ -2,7 +2,7 @@ using System;
 
 namespace Communication{
 
-    public class UserData{
+    public static class RecupererDonne{
 
         public static void Main(string[] args){
 
@@ -49,7 +49,7 @@ namespace Communication{
             return url;
         }
 
-        private static bool URLValide(string stringUrl){
+        public static bool URLValide(string stringUrl){
 
             if(Uri.IsWellFormedUriString(stringUrl, UriKind.Absolute)){
 

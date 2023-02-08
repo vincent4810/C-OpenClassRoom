@@ -5,7 +5,7 @@ namespace Methode
     public class TestMethode{
 
         public static void Main(string[] args){
-
+            Voiture.Increment();
             Voiture voitureRouge = new Voiture();
             Voiture.Increment();
             Console.WriteLine(voitureRouge.Compteur);
